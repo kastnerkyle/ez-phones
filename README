@@ -1,0 +1,13 @@
+First, run ```bash setup.sh```
+
+This should download and build all the things necessary to use pocketsphinx
+
+To test pocketsphinx for phoneme extraction, try the following command
+
+```bash ps_shortcut.sh apple.wav```
+
+Note, this file *must* be 16kHz. You can perform this conversion using sox, like
+
+```sox in.wav -b 16 out.wav rate 16k```
+
+More details can be seen at http://cmusphinx.sourceforge.net/wiki/phonemerecognition                       
