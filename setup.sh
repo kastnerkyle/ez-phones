@@ -1,4 +1,5 @@
 #!/bin/bash
+#sudo apt-get install bison libtool autoconf
 #git submodule add git@github.com:cmusphinx/pocketsphinx pocketsphinx
 #git submodule add git@github.com:cmusphinx/sphinxbase sphinxbase
 #http://cmusphinx.sourceforge.net/wiki/phonemerecognition
