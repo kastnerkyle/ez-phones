@@ -8,14 +8,15 @@ git submodule update --init --recursive
 
 pushd .
 cd sphinxbase
-./autogen.sh
+# some versions do things with autogen, others configure...
+./autogen.sh --without-swig-python
 ./configure --without-swig-python
 make
 popd
 
 pushd .
 cd pocketsphinx
-./autogen.sh
+./autogen.sh --without-swig-python
 ./configure --without-swig-python
 make
 popd
